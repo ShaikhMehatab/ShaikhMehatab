@@ -1,11 +1,7 @@
-package test;
 
-public class Shape {
-
-
-void area() {
-				System.out.println("This is A Constructor")
-
-	}
+public interface Shape {	//creating interface of Shape
+	
+	abstract void in();
+	abstract void area(); 	//declaring method as abstract for interface
 
 }
